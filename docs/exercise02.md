@@ -2,7 +2,7 @@
 
 ## 【目次】
 
-![](images/ex02-0000-sqldb.png)
+![](images/ex02-0000-sqldb-schema.png)
 
 1. [SQL Database スキーマ作成](#sql-database-スキーマ作成)
 
@@ -13,7 +13,11 @@
 
 1. 「クエリエディター」を開く
 
+    ![](images/ex01-0110-sqldb-create.png)
+
 1. 作成した SQL認証 の ユーザーID/パスワード を入力して「OK」
+
+    ![](images/ex01-0120-sqldb-create.png)
 
 1. 以下にのSQLを実行してスキーマおよびサンプルデータを作成
 
@@ -27,11 +31,15 @@
 
 1. 「テーブル」を開き、テーブルが作成されていることを確認
 
+    ![](images/ex02-0030-sqldb-schema.png)
+
 1. 必要に応じてサンプルデータを確認
 
     ```
     select * from [dbo].[Tasks];
-    ```.
+    ```
+
+    ![](images/ex02-0040-sqldb-schema.png)
 
 
 # 次の Exercise へ
