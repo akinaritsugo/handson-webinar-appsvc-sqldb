@@ -2,11 +2,10 @@
 
 ## 【目次】
 
-![](images/ex01-0000-appsvc.png)
+![](images/ex03-0000-appsvc-create.png)
 
 1. [App Service の作成](#app-service-の作成)
 1. [App Service の動作確認](#app-service-の動作確認)
-1. [デプロイスロットの作成](#デプロイスロットの作成)
 
 
 ## App Service の作成
@@ -32,7 +31,7 @@
             * Windows プラン： (新規作成、任意名)
             * SKU と サイズ： `Standard S1`
 
-        ![](images/ex01-0101-appsvc.png)
+        ![](images/ex03-0010-appsvc-create.png)
 
         設定出来たら「確認および作成」を押下
 
@@ -40,11 +39,15 @@
 
         * 継続的デプロイ: `無効化`
 
+        ![](images/ex03-0020-appsvc-create.png)
+
 
     1. ネットワーク
 
         *  パブリックアクセス: `オン`
         * ネットワークインジェクション: `オフ`
+
+        ![](images/ex03-0030-appsvc-create.png)
 
     1. 監視~タグ
 
@@ -62,11 +65,11 @@
 
 1. 概要欄にある URL を確認、別ブラウザで開く
 
-    ![](images/ex01-0102-appsvc.png)
+    ![](images/ex03-0110-appsvc-create.png)
 
 1. 初期ページが開けばOK
 
-    ![](images/ex01-0103-appsvc.png)
+    ![](images/ex03-0120-appsvc-create.png)
 
 
 
