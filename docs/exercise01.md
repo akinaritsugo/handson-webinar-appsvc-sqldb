@@ -2,7 +2,7 @@
 
 ## 【目次】
 
-![](images/ex02-0000-sqldb.png)
+![](images/ex01-0000-sqldb-create.png)
 
 1. [SQL Database 作成](#sql-database-作成)
 
@@ -32,7 +32,7 @@
             * 認証方法： `SQL 認証`
             * サーバー管理者ログイン、パスワード： (任意)
 
-            ![](images/ex02-0101-sqldb.png)
+            ![](images/ex01-0010-sqldb-create.png)
 
         1. 構成
 
@@ -45,11 +45,11 @@
             * データサイズ: `32GB`
             * ゾーン冗長性: `いいえ`
         
-            ![](images/ex02-0102-sqldb.png)
+            ![](images/ex01-0020-sqldb-create.png)
 
         以下は "SQL Database サーバーの作成" および "構成" を含めて設定し終わった状態
 
-        ![](images/ex02-0103-sqldb.png)
+        ![](images/ex01-0030-sqldb-create.png)
 
     1. ネットワーク
 
@@ -60,7 +60,7 @@
         * 接続ポリシー： `既定`
         * TLSの最小バージョン： `TLS 1.2`
 
-        ![](images/ex02-0104-sqldb.png)
+        ![](images/ex01-0040-sqldb-create.png)
 
     1. セキュリティ
 
@@ -71,6 +71,9 @@
         * 既存データを使用: `なし`
         * 照合順序: `Latin1_General_100_CI_AI_SC_UTF8`
         * メンテナンス期間: `システムの規定値`
+
+        ![](images/ex01-0050-sqldb-create.png)
+
 
     1. タグ
 
@@ -88,9 +91,15 @@
 
 1. 「クエリエディター」を開く
 
+    ![](images/ex01-0110-sqldb-create.png)
+
 1. 作成した SQL認証 の ユーザーID/パスワード を入力して「OK」
 
+    ![](images/ex01-0120-sqldb-create.png)
+
 1. 入ることができればOK
+
+    ![](images/ex01-0130-sqldb-create.png)
 
 
 
